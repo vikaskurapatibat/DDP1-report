@@ -1,0 +1,48 @@
+
+\chapter{SPH Formulations}
+
+In the following sections, the derivation and formulations of SPH methodology will be explained. In SPH, we interpolate any function to be expressed in terms of its values at a set of disordered points called as the particles. Every physical property of a fluid is regarded as a spatial function f(r). The ideas are given in \cite{Monaghan1977}. Each function in space be exactly represented by a convolution of the function f(r) itself with the Diract function $\delta (r)$.
+
+\begin{equation}
+ f(r) = \int f(r')\delta(r - r')dr'
+\end{equation}
+
+In SPH, the Dirac function $\delta (r)$ is replaced by a so called interpolating kernel function W(r-r', h), which resembles a Gauss distribution with compact support. Hence, in SPH, the integral approximation of any function f(r) is defined by
+
+\begin{equation}
+ F_1 (r) = \int F(r') W(r-r', h) dr' ,
+\end{equation}
+
+\noindent
+where the integration is over the entire space, and W is an interpolating kernel which has the following two properties.
+
+\begin{equation}
+ \int W(r-r', h)dr' = 1
+\end{equation}
+
+\noindent
+and 
+
+\begin{equation}
+ \lim_{h\to0} W(r-r', h) = \delta(r-r')
+\end{equation}
+
+\noindent
+where the limited is to be interpreted as the limit of the corresponding integral interpolants. The smoothing length 'h', determines the radius of influence of the kernel function. \\
+
+For numerical work, the integral representation is approximated by a summation interpolant as below.
+
+\begin{equation}
+ F_s (r) = \sum_{j} F_j \frac{m_j}{\rho_j} W(r-r_j, h) ,
+\end{equation}
+
+\noindent
+where the summation index j is used to denote a particle label, the summation is performed over all the particles. Particle j carries mass $m_j$, position $r_j$, density $\rho_j$ and velocity $v_j$. The value of any quantity A at position $r_j$ is written as $A_j$. \\
+
+\noindent
+And the differentials and gradients are written as 
+
+\begin{equation}
+ \nabla F(r) = \sum_j \frac{m_j}{\rho_j}F_j \nabla W(r-r_j, h)
+\end{equation}
+

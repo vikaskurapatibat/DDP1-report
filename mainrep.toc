@@ -1,0 +1,24 @@
+\contentsline {chapter}{Abstract}{vii}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Methodology}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}SPH Formulations}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Physical Foundations of Multiphase flows}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Interface Tracking Techniques}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Continuum Surface Force Method}{6}{section.3.3}
+\contentsline {chapter}{\numberline {4}SPH formulations}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Density}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Equation of State}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Forces}{8}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Pressure Forces}{8}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Viscous Forces}{9}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Surface Tension Forces}{9}{subsection.4.3.3}
+\contentsline {subsubsection}{Calculating Interfacial Curvature}{9}{section*.8}
+\contentsline {subsubsection}{Momentum Conserving Form}{10}{section*.9}
+\contentsline {subsubsection}{Removing the Singularity}{11}{section*.10}
+\contentsline {chapter}{\numberline {5}Results and Discussions}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Including Tables}{13}{section.5.1}
+\contentsline {chapter}{\numberline {A}Supporting Material}{15}{appendix.A}
+\contentsline {chapter}{References}{17}{section*.11}
+\contentsline {chapter}{List of Publications}{19}{section*.13}
+\contentsline {chapter}{Acknowledgements}{21}{section*.15}

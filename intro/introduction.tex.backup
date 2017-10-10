@@ -1,0 +1,9 @@
+
+\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
+
+
+\chapter{Introduction}
+
+The three main forces involved in multi phase flows are the pressure forces, viscous forces and surface tension foces. Many techniques have been developed to simulate multiphase flows with surface tension. Smoothed Particle Hydrodynamics is a computational technique which was originally developed to model astrophysical problems \cite{Monaghan1977}, which was later extended to model a wide variety of problems in compuational physics. \cite{Monaghan1992, Monaghan1994}. SPH is a fully Lagrangian technique where fluid interfaces are advected with very little numerical diffusion. The SPH formalism readily accomodates extra physical effects and highly irregular, mobile or even deformable boundaries. However, SPH can often be more computationally expensive than competing methods for idealized problems. In this work we simulate surface tension acting on an interface between two fluids. 
+
+\section{Methodology}

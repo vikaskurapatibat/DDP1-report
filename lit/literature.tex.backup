@@ -1,0 +1,9 @@
+
+\chapter{SPH Formulations}
+
+In the following sections, the derivation and formulations of SPH methodology will be explained. In SPH, we interpolate any function to be expressed in terms of its values at a set of disordered points called as the particles. Every physical property of a fluid is regarded as a spatial function f(r). The ideas are given in \cite{Monaghan1977}. Each function in space be exactly represented by a convolution of the function f(r) itself with the Diract function $\delta (r)$.
+
+\begin{equation}
+ f(r) = \int f(r')\delta(r - r')dr'
+\end{equation}
+
