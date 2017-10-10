@@ -8,7 +8,6 @@ A level-1 auxiliary file: intro/introduction.aux
 A level-1 auxiliary file: lit/literature.aux
 A level-1 auxiliary file: expt/experimental.aux
 A level-1 auxiliary file: rnd/results.aux
-A level-1 auxiliary file: pub.aux
 A level-1 auxiliary file: ack.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -22,7 +21,7 @@ Merlin.mbs v4.21 2009-07-09.
 Warning--empty chapter and pages in prabhu
 You've used 10 entries,
             4451 wiz_defined-function locations,
-            952 strings with 9611 characters,
+            951 strings with 9604 characters,
 and the built_in function-call counts, 8588 in all, are:
 = -- 621
 > -- 183

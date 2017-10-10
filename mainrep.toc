@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {6.1}Stability of an Interface: Problem Statement}{15}{section.6.1}
 \contentsline {section}{\numberline {6.2}Results}{16}{section.6.2}
 \contentsline {section}{\numberline {6.3}Discussions}{16}{section.6.3}
-\contentsline {chapter}{\numberline {A}Supporting Material}{17}{appendix.A}
-\contentsline {chapter}{References}{19}{section*.11}
-\contentsline {chapter}{List of Publications}{21}{section*.13}
-\contentsline {chapter}{Acknowledgements}{23}{section*.15}
+\contentsline {chapter}{\numberline {7}Summary}{19}{chapter.7}
+\contentsline {chapter}{\numberline {8}Future Work}{21}{chapter.8}
+\contentsline {chapter}{References}{23}{section*.11}
+\contentsline {chapter}{Acknowledgements}{25}{section*.13}
