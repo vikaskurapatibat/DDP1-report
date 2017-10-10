@@ -19,44 +19,46 @@ Database file #1: mylit.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Merlin.mbs v4.21 2009-07-09. 
-You've used 7 entries,
+Warning--empty chapter and pages in prabhu
+You've used 9 entries,
             4451 wiz_defined-function locations,
-            931 strings with 9020 characters,
-and the built_in function-call counts, 6203 in all, are:
-= -- 441
-> -- 146
-< -- 4
-+ -- 55
-- -- 48
-* -- 908
-:= -- 746
-add.period$ -- 14
-call.type$ -- 7
-change.case$ -- 51
-chr.to.int$ -- 7
-cite$ -- 14
-duplicate$ -- 500
-empty$ -- 457
-format.name$ -- 65
-if$ -- 1070
+            944 strings with 9373 characters,
+and the built_in function-call counts, 7814 in all, are:
+= -- 563
+> -- 173
+< -- 7
++ -- 65
+- -- 56
+* -- 1109
+:= -- 939
+add.period$ -- 17
+call.type$ -- 9
+change.case$ -- 62
+chr.to.int$ -- 9
+cite$ -- 19
+duplicate$ -- 657
+empty$ -- 590
+format.name$ -- 80
+if$ -- 1374
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 84
-newline$ -- 140
-num.names$ -- 28
-pop$ -- 202
+missing$ -- 106
+newline$ -- 152
+num.names$ -- 37
+pop$ -- 261
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 54
 quote$ -- 2
-skip$ -- 187
+skip$ -- 257
 stack$ -- 0
-substring$ -- 238
-swap$ -- 475
-text.length$ -- 0
+substring$ -- 291
+swap$ -- 603
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 63
-warning$ -- 0
-while$ -- 28
+type$ -- 81
+warning$ -- 1
+while$ -- 37
 width$ -- 0
-write$ -- 175
+write$ -- 198
+(There was 1 warning)

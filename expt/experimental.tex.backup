@@ -251,4 +251,37 @@ A disadvantage of the momentum conserving formulation explained above is that th
 
 \begin{equation}
  \mathbf{F_s} = \sigma \kappa \nabla c = \nabla(\sigma \kappa c) - \sigma c \nabla \kappa
+\label{singular}
+ \end{equation}
+\noindent
+
+The first term of \ref{singular} will be incorporated into the pressure term of the momentum equations by introducing new pressure and surface tension forces as follows:
+
+\begin{equation}
+ p^* = p - \sigma \kappa c
 \end{equation}
+
+\begin{equation}
+ \mathbf{F_s^*} = - \sigma c \nabla \kappa 
+ \label{surface}
+\end{equation}
+
+\noindent
+So, the same momentum equation will be used with \ref{surface} replacing surface tension forces and with modified pressure boundary conditions which accomodate the new definition of pressure. This formulation of surface tension doesn't have a dependance on surface delta function and hences doesn't have a singularity as the resolution is increased.\\
+
+To improve the stability of this technique, only the curvaturs of those particles which satisy $\left | \mathbf{n_a}\right| > \epsilon$ are used in the calculations. The same value of $\epsilon$ can be used as used before. \\
+
+This method is expected to exhibit better stability numerically as the resolution is increased. 
+
+
+\chapter{Implementation}
+
+All the simulations which are performed in this project are done in PySPH, a python environment built to solve problems using the framework of SPH. \cite{prabhu}. It is an open source framework which uses Python and Cython for fast performance. \\
+
+PySPH is implemented in a user friendly where a user can specify the entire simulation in Python using SPH. A high performance code is generated from the code written, compiled and executed. PySPH has options to use multi-cores using OpenMP and MPI for parallelizations.\\
+
+The following is the flow of PySPH and how it works:
+
+\begin{itemize}
+ \item First we create particles in the domain. We discretize the domain into different particles and assign them the initial properties required according to the problem description.
+\end{itemize}

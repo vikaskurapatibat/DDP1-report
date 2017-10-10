@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{7}%
+\begin{thebibliography}{9}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -155,4 +155,24 @@
   Computational Physics}}}\ }%
   \textbf{\bibinfo {volume} {136}},\ \bibinfo {pages} {214--226}.%
   \bibAnnoteFile{Stop}{viscous}%
+\bibitem[{\citenamefont{Ramachandran}(2016)}]{prabhu}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Ramachandran, P.}%
+  , \bibinfo {year} {2016},\ \enquote{\bibinfo {title} {Pysph: a reproducible
+  and high-performance framework for smoothed particle hydrodynamics},}\ in\
+  \emph{\bibinfo {booktitle} {15th Python in Science Conference}},\ \bibinfo
+  {editor} {edited by\ \bibinfo {editor} {\bibnamefont{Benthall, S.}}\ and\
+  \bibinfo {editor} {\bibnamefont{Rostrup, S.}}},\ pp.\ \bibinfo {pages}
+  {122--129}.%
+  \bibAnnoteFile{Stop}{prabhu}%
+\bibitem[{\citenamefont{Sethy}(2017)}]{janmejaya}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Sethy, J.}%
+  , \bibinfo {year} {2017},\ \emph{\bibinfo {title} {Simulating Sprays with
+  Smoothed Particle Hydrodynamics(SPH)}},\ Master's thesis\ (\bibinfo {school}
+  {Aerospace Engineering, Indian Institute of Technology Bombay}, \bibinfo
+  {address} {Mumbai, India}).%
+  \bibAnnoteFile{Stop}{janmejaya}%
 \end{thebibliography}%
