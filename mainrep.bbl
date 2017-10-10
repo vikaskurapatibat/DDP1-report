@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{9}%
+\begin{thebibliography}{10}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -166,6 +166,18 @@
   \bibinfo {editor} {\bibnamefont{Rostrup, S.}}},\ pp.\ \bibinfo {pages}
   {122--129}.%
   \bibAnnoteFile{Stop}{prabhu}%
+\bibitem[{\citenamefont{Rudman}(1998)}]{rudman}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Rudman, M.}%
+  , \bibinfo {year} {1998},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{A volume-tracking method for incompressible
+  multifluid flows with large density variations}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.1002/(SICI)1097-0363(19980815)28:2<357::AID-FLD750>3.0.CO;2-D}{\bibinfo
+  {journal} {International Journal for Numerical Methods in fluids}}}\ }%
+  \textbf{\bibinfo {volume} {28}},\ \bibinfo {pages} {357--378}.%
+  \bibAnnoteFile{Stop}{rudman}%
 \bibitem[{\citenamefont{Sethy}(2017)}]{janmejaya}%
   \BibitemOpen
   \bibfield{author}{%

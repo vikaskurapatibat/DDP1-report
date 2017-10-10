@@ -18,6 +18,9 @@
 \contentsline {subsubsection}{Removing the Singularity}{11}{section*.10}
 \contentsline {chapter}{\numberline {5}Implementation}{13}{chapter.5}
 \contentsline {chapter}{\numberline {6}Results and Discussions}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Stability of an Interface: Problem Statement}{15}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{16}{section.6.2}
+\contentsline {section}{\numberline {6.3}Discussions}{16}{section.6.3}
 \contentsline {chapter}{\numberline {A}Supporting Material}{17}{appendix.A}
 \contentsline {chapter}{References}{19}{section*.11}
 \contentsline {chapter}{List of Publications}{21}{section*.13}

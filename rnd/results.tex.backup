@@ -1,0 +1,9 @@
+\chapter{Results and Discussions}
+The following test case was implemented in PySPH using the method of Interface curvature described in the above sections. \\
+
+
+\subsection{Stability of an Interface: Problem Statement}
+
+Previous studies using the CSF formulation have reported a numerical instability at the fluid-fluid interface. \cite{rudman, Surface}. This instability leads to parasitic currents(non-zero velocities) at the interfaces. Using SPH, these currents could lead to particle disorder at the fluid-fluid interface, showing the effect of the diffusing at the interface. \\
+
+This phenomena is studied here: A simple static case in a periodic domain spanning 0.5 units in x-directoin and 1 unit in y-direction with upper half with fluid of color 1 and lower half with fluid of color 0 is simulated. The fluid densities were considered constant of 1, the surface tension coeffient to be 1 and inviscid flow is considered. The speed of sound for this simulation is set to 20 untis.\cite{Morris} At t=0, a constant velocity in both directions is set so as the KE of each particle is 6 orders less than their internal energy.  The evolution of Kinetic Energy 
