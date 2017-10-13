@@ -1,27 +1,27 @@
-\contentsline {chapter}{Abstract}{vii}{section*.4}
+\contentsline {chapter}{Abstract}{iii}{section*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Methodology}{1}{section.1.1}
-\contentsline {chapter}{\numberline {2}SPH Formulations}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Physical Foundations of Multiphase flows}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Interface Tracking Techniques}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}The Continuum Surface Force Method}{6}{section.3.3}
-\contentsline {chapter}{\numberline {4}SPH formulations}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Density}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Equation of State}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}Forces}{8}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Pressure Forces}{8}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Viscous Forces}{9}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Surface Tension Forces}{9}{subsection.4.3.3}
-\contentsline {subsubsection}{Calculating Interfacial Curvature}{9}{section*.8}
-\contentsline {subsubsection}{Momentum Conserving Form}{10}{section*.9}
-\contentsline {subsubsection}{Removing the Singularity}{11}{section*.10}
-\contentsline {chapter}{\numberline {5}Implementation}{13}{chapter.5}
-\contentsline {chapter}{\numberline {6}Results and Discussions}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Stability of an Interface: Problem Statement}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results}{16}{section.6.2}
-\contentsline {section}{\numberline {6.3}Discussions}{16}{section.6.3}
-\contentsline {chapter}{\numberline {7}Summary}{19}{chapter.7}
-\contentsline {chapter}{\numberline {8}Future Work}{21}{chapter.8}
-\contentsline {chapter}{References}{23}{section*.11}
-\contentsline {chapter}{Acknowledgements}{25}{section*.13}
+\contentsline {chapter}{\numberline {2}SPH Formulations}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Physical Foundations of Multiphase flows}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Interface Tracking Techniques}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Continuum Surface Force Method}{5}{section.3.3}
+\contentsline {chapter}{\numberline {4}SPH formulations}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Density}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Equation of State}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}Forces}{7}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Pressure Forces}{7}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Viscous Forces}{8}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Surface Tension Forces}{8}{subsection.4.3.3}
+\contentsline {subsubsection}{Calculating Interfacial Curvature}{8}{section*.8}
+\contentsline {subsubsection}{Momentum Conserving Form}{9}{section*.9}
+\contentsline {subsubsection}{Removing the Singularity}{10}{section*.10}
+\contentsline {chapter}{\numberline {5}Implementation}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}Results and Discussions}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Stability of an Interface: Problem Statement}{14}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{15}{section.6.2}
+\contentsline {section}{\numberline {6.3}Discussions}{15}{section.6.3}
+\contentsline {chapter}{\numberline {7}Summary}{17}{chapter.7}
+\contentsline {chapter}{\numberline {8}Future Work}{18}{chapter.8}
+\contentsline {chapter}{References}{19}{section*.11}
+\contentsline {chapter}{Acknowledgements}{20}{section*.13}

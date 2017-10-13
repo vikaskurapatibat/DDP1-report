@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  11 OCT 2017 04:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  11 OCT 2017 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,6 +389,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count111
 )
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 203.
+
+
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen120
@@ -547,9 +552,7 @@ Package pdftex.def Info: iitb-black.pdf used on input line 92.
 (pdftex.def)             Requested size: 120.0pt x 115.02669pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>] [2
-
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+txr on input line 112.
 
 
@@ -579,34 +582,38 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [3]
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 \include{dec}
+                    [1
+
+]
 \openout2 = `dec.aux'.
 
- (./dec.tex
-[4
+ (./dec.tex) [2
 
 
-]) [5
 
 ]
 \openout2 = `abs.aux'.
 
- (./abs.tex [6
+ (./abs.tex) [3
 
 
 
-]) [7
 
-] [8
+] (./mainrep.toc [4
 
 
-] (./mainrep.toc [9
 
 ])
 \tf@toc=\write5
 \openout5 = `mainrep.toc'.
 
- [10]
+
+[5]
 No file mainrep.nls.
 \openout2 = `intro/introduction.aux'.
 
@@ -621,34 +628,34 @@ Chapter 1.
 ]
 \openout2 = `lit/literature.aux'.
 
- (./lit/literature.tex [2
-
-
-
-]
+ (./lit/literature.tex
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[3]
+[2
+
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-) [4]
+) [3]
 \openout2 = `expt/experimental.aux'.
 
  (./expt/experimental.tex
 Chapter 3.
-[5
+[4
 
 
 
-] [6]
+] [5]
 Chapter 4.
-[7
+[6
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 110.
@@ -658,17 +665,17 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 110.
- [8]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[9]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-[10]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 237--239
 
  []
@@ -683,7 +690,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-[11] [12]
+[10] [11]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
@@ -695,14 +702,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-<expt/../pysph-examples-common-steps.png, id=329, 840.13875pt x 609.27625pt>
+<expt/../pysph-examples-common-steps.png, id=307, 840.13875pt x 609.27625pt>
 File: expt/../pysph-examples-common-steps.png Graphic file (type png)
 
 <use expt/../pysph-examples-common-steps.png>
 Package pdftex.def Info: expt/../pysph-examples-common-steps.png used on input 
 line 296.
 (pdftex.def)             Requested size: 426.79134pt x 309.50888pt.
- [13
+ [12
 
 ]
 LaTeX Font Info:    Try loading font information for T1+txtt on input line 300.
@@ -715,7 +722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -737,11 +744,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[15
+[14
 
 
 
-] <expt/../../case1.png, id=358, 462.528pt x 346.896pt>
+] <expt/../../case1.png, id=336, 462.528pt x 346.896pt>
 File: expt/../../case1.png Graphic file (type png)
 
 <use expt/../../case1.png>
@@ -757,32 +764,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-) [16pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+) [15pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.157 \include{rnd/results}
-                            <./expt/../../case1.png>] [17] [18
-
-
-]
+                            <./expt/../../case1.png>] [16]
 Chapter 7.
-[19] [20
+[17
+
 
 ]
 Chapter 8.
-[21] [22
+[18
 
-] (./mainrep.bbl) [23
+] (./mainrep.bbl) [19
+
 
 ]
 \openout2 = `ack.aux'.
 
- (./ack.tex [24
-
-
-]
+ (./ack.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -792,7 +795,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-) [25
+) [20
+
+
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
@@ -807,10 +812,10 @@ Package rerunfilecheck Info: File `mainrep.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 8382 strings out of 494953
- 113969 string characters out of 6180978
- 198175 words of memory out of 5000000
- 11292 multiletter control sequences out of 15000+600000
+ 8373 strings out of 494953
+ 113911 string characters out of 6180978
+ 198138 words of memory out of 5000000
+ 11293 multiletter control sequences out of 15000+600000
  78674 words of font info for 107 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  36i,12n,50p,1099b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -825,10 +830,10 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on mainrep.pdf (35 pages, 316268 bytes).
+Output written on mainrep.pdf (26 pages, 314890 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
