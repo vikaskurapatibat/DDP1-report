@@ -14,7 +14,7 @@ To calculate the surface tension force, we will need to calculate the interface 
 In the case of immiscible fluids, each corresponding to a differenct 'color', c, interface tracking can be achieved by simulating the advection of the color function. \cite{Morris}
 
 \begin{equation}
-\frac{\partial c}{\partial t} + \mathbf{v}.\nabla c = 0 
+% % % \frac{\partial c}{\partial t} + \mathbf{v}.\nabla c = 0 
 \end{equation}
 
 The color function may be evolved in a Lagrangian fashion by assigning it as a physical property to 'particles', which are then advected through the computational domain. In genral, this may be achieved using particles on the interface alone(surface-marker methods) or by employing particles which fill the entire computational domain(volume-marker methods). Surface markers have been used extensively to track the location of interface with high accuracy. This approach may be exploited by fully Lagrangian Techniques like SPH. With SPH, each extra phase is modelled simply by introducing an extra species of a particle of different color property.
