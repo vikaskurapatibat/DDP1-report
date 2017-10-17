@@ -4,6 +4,26 @@
 
 \chapter{Introduction}
 
-The three main forces involved in multi phase flows are the pressure forces, viscous forces and surface tension foces. Many techniques have been developed to simulate multiphase flows with surface tension. Smoothed Particle Hydrodynamics is a computational technique which was originally developed to model astrophysical problems \cite{Monaghan1977}, which was later extended to model a wide variety of problems in compuational physics. \cite{Monaghan1992, Monaghan1994}. SPH is a fully Lagrangian technique where fluid interfaces are advected with very little numerical diffusion. The SPH formalism readily accomodates extra physical effects and highly irregular, mobile or even deformable boundaries. However, SPH can often be more computationally expensive than competing methods for idealized problems. In this work we simulate surface tension acting on an interface between two fluids. 
+There are 4 states of matter i.e., gas, liquid, solid and plasma. If a flow consists of at least two phases, it is called a 
+Multiphase flow. Multiphase flows are often encountered in real life, like mixing of oil in water etc., \\
+
+Numerical modelling of the entire Multiphase flows can be performed using grid-based techniques. But, these grid based techniques
+are not so efficient due to the enormous amount of required computational resources. There are some common grid based codes in 
+Eulerian frames which use interface tracking techniques like the volume of fluid(VoF) or the level set method for simulating multiphase
+flows.But, they have some disadvantages like the costly restructuring of interfaces, failure to conserve mass in coarse regions.
+But, these are required to calculate surface tension force which is one of the main driving forces in multiphase flows.\\
+
+To solve the above discussed issues, a Lagrangian particle based technique using the concept of Smoothed Particle Hydrodynamics(SPH)
+has been developed. In this technique, the spacially descretized points, called the particles move with the local fluid velocity
+and belong to the phase they were assigned initially. For the above reason, there is no requirement for capturing of the phase change or reconstuction
+of the grid. As the surfac tension can now be correctly applied on the interface, a more accurate modelling of the surfaces can
+be done. \\
+
+\section{Objective}
+
+This work focuses on the applicability of SPH in the regime of multiphase fluid flows. 
 
 \section{Methodology}
+
+The SPH method was introduced in the late 1970's to solve the problems in astrophysics. There is no need of underlying grid for spatial discretization. As the SPH simulation is based on Lagrangian frame of reference, the fluid is discretized by moval spatial discretization points called particles. Only the initial domain is to be discretized and then these particles are moved according to their interactions. The physical propeerties like mass, density, velocity and internal energy are assigned to these particles. In accordance with the governing conservation equations, the fluid characteristics are calculated at each particle.
+

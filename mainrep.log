@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  11 OCT 2017 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  17 OCT 2017 03:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,48 +422,48 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 ) (./mainrep.aux
-(./dec.aux) (./abs.aux) (./intro/introduction.aux) (./lit/literature.aux)
-(./expt/experimental.aux) (./rnd/results.aux) (./ack.aux))
+(./dec.aux) (./ack.aux) (./abs.aux) (./intro/introduction.aux)
+(./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 46.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 46.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 46.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 48.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 46.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 48.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 46.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 46.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -483,7 +483,7 @@ File: t1txr.fd 2000/12/15 v3.1
 \everyMPtoPDFconversion=\toks23
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 48.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -492,9 +492,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count123
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (./mainrep.out) (./mainrep.out)
 \@outlinefile=\write4
@@ -516,68 +516,68 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 92.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 92.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 92.
-LaTeX Font Info:    Try loading font information for T1+pzc on input line 92.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Try loading font information for T1+pzc on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pzc.fd
 File: t1pzc.fd 2001/06/04 font definitions for T1/pzc.
 )
 LaTeX Font Info:    Font shape `T1/pzc/m/it' in size <14.4> not available
-(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 92.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 92.
+(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 94.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 92.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
 
-<iitb-black.pdf, id=104, 557.08125pt x 533.995pt>
+<iitb-black.pdf, id=132, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf>
-Package pdftex.def Info: iitb-black.pdf used on input line 92.
+Package pdftex.def Info: iitb-black.pdf used on input line 94.
 (pdftex.def)             Requested size: 120.0pt x 115.02669pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 114.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 112.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 114.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 112.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 114.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 112.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 114.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 112.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 114.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -586,7 +586,7 @@ File: utxsyc.fd 2000/12/15 v3.1
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \include{dec}
+l.127 \include{dec}
                     [1
 
 ]
@@ -594,192 +594,6 @@ l.125 \include{dec}
 
  (./dec.tex) [2
 
-
-
-]
-\openout2 = `abs.aux'.
-
- (./abs.tex) [3
-
-
-
-
-] (./mainrep.toc [4
-
-
-
-])
-\tf@toc=\write5
-\openout5 = `mainrep.toc'.
-
-
-[5]
-No file mainrep.nls.
-\openout2 = `intro/introduction.aux'.
-
-(./intro/introduction.tex
-Chapter 1.
-) [1
-
-
-
-
-
-]
-\openout2 = `lit/literature.aux'.
-
- (./lit/literature.tex
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-[2
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-) [3]
-\openout2 = `expt/experimental.aux'.
-
- (./expt/experimental.tex
-Chapter 3.
-[4
-
-
-
-] [5]
-Chapter 4.
-[6
-
-]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 110.
-
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 110.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
- []
-
-[10] [11]
-Chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-<expt/../pysph-examples-common-steps.png, id=307, 840.13875pt x 609.27625pt>
-File: expt/../pysph-examples-common-steps.png Graphic file (type png)
-
-<use expt/../pysph-examples-common-steps.png>
-Package pdftex.def Info: expt/../pysph-examples-common-steps.png used on input 
-line 296.
-(pdftex.def)             Requested size: 426.79134pt x 309.50888pt.
- [12
-
-]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 300.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.156 \include{expt/experimental}
-                                  <./expt/../pysph-examples-common-steps.png (P
-NG copy)>]
-\openout2 = `rnd/results.aux'.
-
- (./rnd/results.tex
-Chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-[14
-
-
-
-] <expt/../../case1.png, id=336, 462.528pt x 346.896pt>
-File: expt/../../case1.png Graphic file (type png)
-
-<use expt/../../case1.png>
-Package pdftex.def Info: expt/../../case1.png used on input line 17.
-(pdftex.def)             Requested size: 426.79134pt x 320.11154pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-) [15pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.157 \include{rnd/results}
-                            <./expt/../../case1.png>] [16]
-Chapter 7.
-[17
-
-
-]
-Chapter 8.
-[18
-
-] (./mainrep.bbl) [19
 
 
 ]
@@ -795,45 +609,257 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-) [20
+) [3
+
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
- (./mainrep.aux (./dec.aux) (./abs.aux) (./intro/introduction.aux)
-(./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux) (./ack.aux
-))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+\openout2 = `abs.aux'.
+
+ (./abs.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+) [4
+
+
+
+
+] (./mainrep.toc [5
+
+
+
+])
+\tf@toc=\write5
+\openout5 = `mainrep.toc'.
+
+ [6]
+No file mainrep.nls.
+\openout2 = `intro/introduction.aux'.
+
+(./intro/introduction.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+
+ []
+
+[1
+
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+) [2]
+\openout2 = `lit/literature.aux'.
+
+ (./lit/literature.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+[3
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 216--221
+
+ []
+
+) [7]
+\openout2 = `expt/experimental.aux'.
+
+ (./expt/experimental.tex
+Chapter 3.
+[8
+
+
+
+] [9]
+Chapter 4.
+[10
+
+]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 110.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 110.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+[14] [15]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+) [16
+
+] [17]
+\openout2 = `rnd/results.aux'.
+
+ (./rnd/results.tex
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[18
+
+
+
+] <expt/../../case1.png, id=413, 462.528pt x 346.896pt>
+File: expt/../../case1.png Graphic file (type png)
+
+<use expt/../../case1.png>
+Package pdftex.def Info: expt/../../case1.png used on input line 17.
+(pdftex.def)             Requested size: 426.79134pt x 320.11154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+) [19pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 \include{rnd/results}
+                            <./expt/../../case1.png>] [20]
+Chapter 7.
+[21
+
+
+]
+Chapter 8.
+[22
+
+] (./mainrep.bbl [23
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+ (./mainrep.aux (./dec.aux) (./ack.aux)
+(./abs.aux) (./intro/introduction.aux) (./lit/literature.aux)
+(./expt/experimental.aux) (./rnd/results.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `mainrep.out' has not changed.
-(rerunfilecheck)             Checksum: D1603DDFD0753299B7FA39717F0311EB;1489.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+(rerunfilecheck)             Checksum: B1B1D6B51A1BC27F8835DAF0EC11D335;1997.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 8373 strings out of 494953
- 113911 string characters out of 6180978
- 198138 words of memory out of 5000000
- 11293 multiletter control sequences out of 15000+600000
- 78674 words of font info for 107 fonts, out of 8000000 for 9000
+ 8378 strings out of 494953
+ 113779 string characters out of 6180978
+ 198446 words of memory out of 5000000
+ 11274 multiletter control sequences out of 15000+600000
+ 78352 words of font info for 106 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,12n,50p,1099b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,50p,1099b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on mainrep.pdf (26 pages, 314890 bytes).
+1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb
+>
+Output written on mainrep.pdf (31 pages, 294424 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,12 +3,12 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mainrep.aux
 The style file: iitbauthyr.bst
 A level-1 auxiliary file: dec.aux
+A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: abs.aux
 A level-1 auxiliary file: intro/introduction.aux
 A level-1 auxiliary file: lit/literature.aux
 A level-1 auxiliary file: expt/experimental.aux
 A level-1 auxiliary file: rnd/results.aux
-A level-1 auxiliary file: ack.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,45 +19,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Merlin.mbs v4.21 2009-07-09. 
 Warning--empty chapter and pages in prabhu
-You've used 10 entries,
+You've used 11 entries,
             4451 wiz_defined-function locations,
-            951 strings with 9604 characters,
-and the built_in function-call counts, 8588 in all, are:
-= -- 621
-> -- 183
-< -- 8
-+ -- 69
-- -- 59
-* -- 1218
-:= -- 1032
-add.period$ -- 19
-call.type$ -- 10
-change.case$ -- 68
-chr.to.int$ -- 10
-cite$ -- 21
-duplicate$ -- 725
-empty$ -- 653
-format.name$ -- 84
-if$ -- 1513
+            962 strings with 9816 characters,
+and the built_in function-call counts, 9558 in all, are:
+= -- 695
+> -- 211
+< -- 9
++ -- 79
+- -- 68
+* -- 1373
+:= -- 1145
+add.period$ -- 21
+call.type$ -- 11
+change.case$ -- 76
+chr.to.int$ -- 11
+cite$ -- 23
+duplicate$ -- 799
+empty$ -- 720
+format.name$ -- 102
+if$ -- 1684
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 118
-newline$ -- 162
-num.names$ -- 41
-pop$ -- 287
+missing$ -- 130
+newline$ -- 172
+num.names$ -- 45
+pop$ -- 317
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 66
 quote$ -- 2
-skip$ -- 284
+skip$ -- 311
 stack$ -- 0
-substring$ -- 325
-swap$ -- 667
+substring$ -- 365
+swap$ -- 745
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 90
+type$ -- 99
 warning$ -- 1
-while$ -- 41
+while$ -- 45
 width$ -- 0
-write$ -- 213
+write$ -- 228
 (There was 1 warning)

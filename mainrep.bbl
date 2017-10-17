@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{10}%
+\begin{thebibliography}{11}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -96,6 +96,18 @@
   Computational Physics}}}\ }%
   \textbf{\bibinfo {volume} {113}},\ \bibinfo {pages} {134--147}.%
   \bibAnnoteFile{Stop}{Surface}%
+\bibitem[{\citenamefont{Lucy}\ and\ \citenamefont{Leon}(1977)}]{Lucy}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Lucy,\ and\ Leon, B.}%
+  , \bibinfo {year} {1977},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{A numerical approach to the testing of the
+  fission hypothesis}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.1086/112164}{\bibinfo {journal} {The astronomical journal}}}\
+  }%
+  \textbf{\bibinfo {volume} {82}},\ \bibinfo {pages} {1013--1024}.%
+  \bibAnnoteFile{Stop}{Lucy}%
 \bibitem[{\citenamefont{Monaghan}(1992)}]{Monaghan1992}%
   \BibitemOpen
   \bibfield{author}{%
@@ -107,16 +119,6 @@
   Review of Astronomy and Astrophysics}}}\ }%
   \textbf{\bibinfo {volume} {30}},\ \bibinfo {pages} {543--574}.%
   \bibAnnoteFile{Stop}{Monaghan1992}%
-\bibitem[{\citenamefont{Monaghan}(1994)}]{Monaghan1994}%
-  \BibitemOpen
-  \bibfield{author}{%
-  Monaghan, J.}%
-  , \bibinfo {year} {1994},\ \bibfield{title}{%
-  \enquote{\bibinfo {title} {{Smoothed Particle Hydrodynamics}},}\ }%
-  \bibfield{journal}{%
-  \emph{\bibinfo {journal} {Journal of Computational Physics}}\ }%
-  \textbf{\bibinfo {volume} {110}},\ \bibinfo {pages} {399--406}.%
-  \bibAnnoteFile{Stop}{Monaghan1994}%
 \bibitem[{\citenamefont{Monaghan}\ and\
   \citenamefont{Gingold}(1977)}]{Monaghan1977}%
   \BibitemOpen
@@ -130,6 +132,19 @@
   the Royal Astronomical Society}}}\ }%
   \textbf{\bibinfo {volume} {181}},\ \bibinfo {pages} {375--389}.%
   \bibAnnoteFile{Stop}{Monaghan1977}%
+\bibitem[{\citenamefont{Monaghan}\ and\
+  \citenamefont{Gingold}(1983)}]{Monaghan1983}%
+  \BibitemOpen
+  \bibfield{author}{%
+  Monaghan, J.,\ and\ Gingold, R.}%
+  , \bibinfo {year} {1983},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Shock Simulation by the particle method SPH}},}\
+  }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.1016/0021-9991(83)90036-0}{\bibinfo {journal} {Journal of
+  Computational Physics}}}\ }%
+  \textbf{\bibinfo {volume} {52}},\ \bibinfo {pages} {374--389}.%
+  \bibAnnoteFile{Stop}{Monaghan1983}%
 \bibitem[{\citenamefont{Morris}(2000)}]{Morris}%
   \BibitemOpen
   \bibfield{author}{%
