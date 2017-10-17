@@ -4,7 +4,7 @@
 In the following sections, the derivation and formulations of SPH methodology will be explained.
 In SPH, we interpolate any function to be expressed in terms of its values at a set of disordered points called as the particles.
 Every physical property of a fluid is regarded as a spatial function f(r). 
-The ideas are given in \cite{Monaghan1977} and \cite{Lucy}. 
+The ideas are given in \citep{Monaghan1977} and \citep{Lucy}. 
 Each function in space be exactly represented by a convolution of the function f(r) itself with the Diract function $\delta (r)$.
 
 \begin{equation}
@@ -86,8 +86,8 @@ where $\mathbf{v_{ij}} = \mathbf{v_i} - \mathbf{v_j}$.\\
 \subsection{Momentum Equation}
 
 The momentum Equation generally contains pressure and viscous terms which are discussed here.
-Any extra forces like stress, surface tension forces are to be dealth
-seperately and added to the momentum equation.
+Any extra forces like stress, surface tension forces are to be dealt
+separately and added to the momentum equation.
 
 \subsubsection{Pressure Force}
 
@@ -99,7 +99,7 @@ The gradient of the pressure can be estimated as:
 \end{equation}
 
 This equation gives zero forces for constant pressures but doesn't
-conserve linear and angular momentum. Hence, a differen SPH formulation
+conserve linear and angular momentum. Hence, a different SPH formulation
 is required.\\
 
 For the same reason, a different formulation of the pressure gradient is used as follows:
@@ -115,14 +115,14 @@ This when written in SPH form gives pressure to be as:
 \end{equation}
 
 \noindent
-This form of pressure force conserves momentum as it is asymmetric. 
+This form of pressure force conserves momentum as it is anti-symmetric. 
 
 \subsubsection{Viscous Force}
 
 If there is no Physical Laminar viscosity in the flow, in general
 an artificial viscosity is used in SPH to improve the numerical stability.\\
 
-The commonly used artificial viscosity used term as given in \cite{Monaghan1983}:
+The commonly used artificial viscosity used term as given in \citep{Monaghan1983}:
 
 \begin{equation}
  \frac{d\mathbf{v_i^\nu}}{dt} = - \sum_j m_j \Pi_{ij} \nabla_i W_{ij}
@@ -198,7 +198,7 @@ There are two ways to move the particles. One way is:
 \end{equation}
 
 \noindent
-or the XSPH variant as given in \cite{Monaghan1983}:
+or the XSPH variant as given in \citep{Monaghan1983}:
 
 \begin{equation}
 \frac{d\mathbf{r_i}}{dt} = \hat {\mathbf{v_i}} = \mathbf{v_i} + \epsilon \sum_j m_j \left(\frac{\mathbf{v_{ji}}}{\rho_{ij}}\right) W_{ij}
@@ -206,8 +206,8 @@ or the XSPH variant as given in \cite{Monaghan1983}:
 
 \noindent
 where $\rho_{ij} = 0.5*(\rho_i + \rho_j)$ and $\epsilon (0 \leq \epsilon \leq 1)$ as a constant. 
-This XSPH correction helps in moving a particles with a velocity that is closer to the
-average velocity in its neighbourhood. XSPH is found to increase dispersion instead of introducin
+This XSPH correction helps in moving the particles with a velocity that is closer to the
+average velocity in its neighbourhood. XSPH is found to increase dispersion instead of introducing
 dissipation. The XSPH correction is useful in simulating nearly incompressible fluids like water, which keeps 
 particles' motion orderly in the absence of viscosity.
 

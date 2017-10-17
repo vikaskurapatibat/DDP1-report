@@ -11,18 +11,18 @@ To calculate the surface tension force, we will need to calculate the interface 
 
 \section{Interface Tracking Techniques}
 
-In the case of immiscible fluids, each corresponding to a differenct 'color', c, interface tracking can be achieved by simulating the advection of the color function. \cite{Morris}
+In the case of immiscible fluids, each corresponding to a different 'color', c, interface tracking can be achieved by simulating the advection of the color function. \citep{Morris}
 
 \begin{equation}
-% % % \frac{\partial c}{\partial t} + \mathbf{v}.\nabla c = 0 
+\frac{\partial c}{\partial t} + \mathbf{v}.\nabla c = 0 
 \end{equation}
 
 The color function may be evolved in a Lagrangian fashion by assigning it as a physical property to 'particles', which are then advected through the computational domain. In genral, this may be achieved using particles on the interface alone(surface-marker methods) or by employing particles which fill the entire computational domain(volume-marker methods). Surface markers have been used extensively to track the location of interface with high accuracy. This approach may be exploited by fully Lagrangian Techniques like SPH. With SPH, each extra phase is modelled simply by introducing an extra species of a particle of different color property.
 
 \section{The Continuum Surface Force Method}
 
-The Continuum surface force(CSF) method \cite{Brackbill} permits numerical simulation of surface tension without placing restrictions upon the flow geometry. The CSF approach models process localized to a fluid interface by applying them to fluid elements in the transition region of the interface. Interfacial phenomena, such as surface tension and phase change, are translated into volume processes having a net effect that emulates the desired physics.
-In the CSF model, surface tension is translated into a force per unti volume $\mathbf{F_s}$, by
+The Continuum surface force(CSF) method \citep{Brackbill} permits numerical simulation of surface tension without placing restrictions upon the flow geometry. The CSF approach models process localized to a fluid interface by applying them to fluid elements in the transition region of the interface. Interfacial phenomena, such as surface tension and phase change, are translated into volume processes having a net effect that emulates the desired physics.
+In the CSF model, surface tension is translated into a force per unit volume $\mathbf{F_s}$, by
 
 \begin{equation}
  \mathbf{F_s} = \mathbf{f_s} \delta_s
@@ -51,7 +51,7 @@ where c is the color function identifying each fluid in the simultion and [c] is
 \end{equation}
 
 \noindent
-There are many possible choices for $\delta_s$ however, it should be normalized such that its integral through the boundary is one. This is necessary for the correct physics of the interface to be recovered as the resolution is increased. The funciton should also be non-zero only in those fluid elements that correspond to the transition regions in the numerical method. The surface delta function employed in this work is
+There are many possible choices for $\delta_s$ however, it should be normalized such that its integral through the boundary is one. This is necessary for the correct physics of the interface to be recovered as the resolution is increased. The function should also be non-zero only in those fluid elements that correspond to the transition regions in the numerical method. The surface delta function employed in this work is
 
 \begin{equation}
  \delta_s = \left| \mathbf{n} \right |
@@ -90,7 +90,7 @@ where $\mathbf{r_a}$ denotes the position of particle a. The kernel typically ta
  W(\mathbf{r_{ab}}, h)= \frac{1}{h^N} f\left( \frac{\left|\mathbf{r_{ab}} \right|}{h}\right)
 \end{equation}
 \noindent
-where N is the number of dimensions and the function f is typically either a Gaussian or a spline approximating a Gaussian. The smoothing length is generally between 1-1.5 times the shortes particle separation. 
+where N is the number of dimensions and the function f is typically either a Gaussian or a spline approximating a Gaussian. The smoothing length is generally between 1-1.5 times the shortest particle separation. 
 
 \section{Equation of State}
 In SPH, pressure is an explicit function of local fluid density and a quasi-incompressible equation of state is used. For this work, the isothermal EOS as follows is used.
@@ -124,7 +124,7 @@ where $p_a$ is the pressure at particle a and $\nabla_a$ denotes the gradient wi
 
 \subsection{Viscous Forces}
 
-Viscous forces were calculated using a formulation recently applied to low Reynolds Number flow. \cite{viscous} The SPH momentum equation may be written as \cite{viscous}:
+Viscous forces were calculated using a formulation recently applied to low Reynolds Number flow. \citep{viscous} The SPH momentum equation may be written as \citep{viscous}:
 
 \begin{equation}
  \left(\frac{d\mathbf{v_v}}{dt} \right)_a = \sum_b \frac{m_b(\nu_a + \nu_b)\mathbf{v_{ab}}}{\rho_a\rho_b} \left(\frac{1}{r_{ab}} \frac{\partial W_{ab}}{\partial r_a}\right) 
@@ -134,7 +134,7 @@ Viscous forces were calculated using a formulation recently applied to low Reyno
 
 \subsubsection{Calculating Interfacial Curvature}
 
-In order to obtain the surface tension forces, the curvature $\kappa$ should be calculated. This requires calculation of surface normals and their divergence.\cite{Morris} \\
+In order to obtain the surface tension forces, the curvature $\kappa$ should be calculated. This requires calculation of surface normals and their divergence.\citep{Morris} \\
 
 The simplest SPH expression for \textbf{n} is given by
 \begin{equation}
@@ -159,7 +159,7 @@ The simplest SPH expression for the divergence of $\mathbf{\hat n}$ is:
  \left( \nabla . \mathbf{\hat n}\right)_a = \sum_b \frac{m_b}{\rho_b} \mathbf{\hat n_b}.\nabla_a W_{ab}
 \end{equation}
 \noindent
-A more accurate estimation of divergence is obtained using \cite{Monaghan1992}
+A more accurate estimation of divergence is obtained using \citep{Monaghan1992}
 
 \begin{equation}
  \left( \nabla . \mathbf{\hat n_a}\right) = \sum_b \frac{m_b}{\rho_b}(\mathbf{\hat n_b} - \mathbf{\hat n_a}). \nabla_a W_{ab} 
@@ -167,7 +167,7 @@ A more accurate estimation of divergence is obtained using \cite{Monaghan1992}
  \end{equation}
 
 
-If equations \ref{normal} and \ref{divergence} are used to evaluate the curvature, large errors occur at the transition region's edges. The main issue is the requirement of normalized normals $\mathbf{\hat n}$. Some distance away from the interface, \textbf{n} will be small and may have a random direction. So, any curvature using these normals would be inaccuracte. Hence, for a more accurate calculation, we used only 'reliable' normals to do the divergence calculations. The following were used to do it:
+If equations \ref{normal} and \ref{divergence} are used to evaluate the curvature, large errors occur at the transition region's edges. The main issue is the requirement of normalized normals $\mathbf{\hat n}$. Some distance away from the interface, \textbf{n} will be small and may have a random direction. So, any curvature using these normals would be inaccurate. Hence, for a more accurate calculation, we used only 'reliable' normals to do the divergence calculations. The following were used to do it:
 
 \begin{equation}
  N_a = 
@@ -216,14 +216,14 @@ The surface tension is then calculated as:
 
 
 \subsubsection{Momentum Conserving Form}
-The method explained above does not guarantee exact conservation of momentum. We now discuss one method which conserves momentum. Surface tension force can be expressed as the gradient of the tensor. \cite{Surface}
+The method explained above does not guarantee exact conservation of momentum. We now discuss one method which conserves momentum. Surface tension force can be expressed as the gradient of the tensor. \citep{Surface}
 
 \begin{equation}
  \kappa \mathbf{\hat n} \delta_s = \nabla[(\mathbf{I} - \mathbf{\hat n}\times\mathbf{\hat n})\delta_s]
 \end{equation}
 
 \noindent
-The given expression can be approximated in SPH by \cite{Morris}:
+The given expression can be approximated in SPH by \citep{Morris}:
 
 \begin{equation}
  (\mathbf{a_s})_a = \left( \frac{1}{\rho} \frac{\partial S_{ij}}{\partial x_j} \right) = \sum_b m_b \frac{(S_{ij})_a + (S_{ij})_b}{\rho_a \rho_b} \nabla_{a, j} W_{ab}
@@ -237,7 +237,7 @@ where
 \noindent
 Where, $\delta_{ij}$ is the Kronecker delta, $\nabla_{a,j}W_{ab}$ is the $j^{th}$ component of the gradient of $W_{ab}$ with respect to $\mathbf{r_a}$ and the repitition of j means summation. To improve accuracy, only those normals satisfying \ref{reliablity} are used in summation. Since, the reciprocal particle summations are anti-symmetric, this conserves the momentum.\\
 
-This method is potentially unstable as attractive forces when momentum conserving formulaitons are used are unstable when SPH particles are considered.\\
+This method is potentially unstable as attractive forces when momentum conserving formulations are used are unstable when SPH particles are considered.\\
 As the resolution is increased, the maximum of $\delta_s$ will increase and at some point, the method will blow up. A solution to this issue is to replace $S_{ij}$ with a modified tensor as follow:
 
 \begin{equation}
@@ -267,22 +267,22 @@ The first term of \ref{singular} will be incorporated into the pressure term of 
 \end{equation}
 
 \noindent
-So, the same momentum equation will be used with \ref{surface} replacing surface tension forces and with modified pressure boundary conditions which accomodate the new definition of pressure. This formulation of surface tension doesn't have a dependance on surface delta function and hences doesn't have a singularity as the resolution is increased.\\
+So, the same momentum equation will be used with \ref{surface} replacing surface tension forces and with modified pressure boundary conditions which accommodate the new definition of pressure. This formulation of surface tension doesn't have a dependance on surface delta function and hence doesn't have a singularity as the resolution is increased.\\
 
-To improve the stability of this technique, only the curvaturs of those particles which satisy $\left | \mathbf{n_a}\right| > \epsilon$ are used in the calculations. The same value of $\epsilon$ can be used as used before. \\
+To improve the stability of this technique, only the curvature of those particles which satisfy $\left | \mathbf{n_a}\right| > \epsilon$ are used in the calculations. The same value of $\epsilon$ can be used as used before. \\
 
 This method is expected to exhibit better stability numerically as the resolution is increased. 
 
 
 \chapter{Implementation}
 
-All the simulations which are performed in this project are done in PySPH, a python environment built to solve problems using the framework of SPH. \cite{prabhu}. It is an open source framework which uses Python and Cython for fast performance. \\
+All the simulations which are performed in this project are done in PySPH, a python environment built to solve problems using the framework of SPH. \citep{prabhu}. It is an open source framework which uses Python and Cython for fast performance. \\
 
 PySPH is implemented in a user friendly where a user can specify the entire simulation in Python using SPH. A high performance code is generated from the code written, compiled and executed. PySPH has options to use multi-cores using OpenMP and MPI for parallelizations.\\
 
 
 
-The following is the flow of PySPH and how it works \cite{janmejaya}:
+The following is the flow of PySPH and how it works \citep{janmejaya}:
 
 \begin{itemize}
  \item First we create particles in the domain. We discretize the domain into different particles and assign them the initial properties required according to the problem description. PySPH stores all these in an array called particle array where every array has a unique name and id.

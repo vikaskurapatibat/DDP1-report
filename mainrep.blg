@@ -19,45 +19,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Merlin.mbs v4.21 2009-07-09. 
 Warning--empty chapter and pages in prabhu
-You've used 11 entries,
+You've used 12 entries,
             4451 wiz_defined-function locations,
-            962 strings with 9816 characters,
-and the built_in function-call counts, 9558 in all, are:
-= -- 695
-> -- 211
-< -- 9
-+ -- 79
-- -- 68
-* -- 1373
-:= -- 1145
-add.period$ -- 21
-call.type$ -- 11
-change.case$ -- 76
-chr.to.int$ -- 11
-cite$ -- 23
-duplicate$ -- 799
-empty$ -- 720
-format.name$ -- 102
-if$ -- 1684
+            970 strings with 9948 characters,
+and the built_in function-call counts, 10420 in all, are:
+= -- 760
+> -- 230
+< -- 10
++ -- 86
+- -- 74
+* -- 1501
+:= -- 1247
+add.period$ -- 23
+call.type$ -- 12
+change.case$ -- 83
+chr.to.int$ -- 12
+cite$ -- 25
+duplicate$ -- 871
+empty$ -- 785
+format.name$ -- 113
+if$ -- 1838
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 130
-newline$ -- 172
-num.names$ -- 45
-pop$ -- 317
+missing$ -- 142
+newline$ -- 182
+num.names$ -- 49
+pop$ -- 346
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 72
 quote$ -- 2
-skip$ -- 311
+skip$ -- 338
 stack$ -- 0
-substring$ -- 365
-swap$ -- 745
+substring$ -- 399
+swap$ -- 814
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 99
+type$ -- 108
 warning$ -- 1
-while$ -- 45
+while$ -- 49
 width$ -- 0
-write$ -- 228
+write$ -- 243
 (There was 1 warning)

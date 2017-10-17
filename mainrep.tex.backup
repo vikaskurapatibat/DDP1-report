@@ -4,8 +4,8 @@
 %********************************************************************
 
 %\documentclass[11pt,a4paper,openright]{report}
-\documentclass[twoside]{iitbreport}
-% \documentclass[oneside]{iitbreport}
+% \documentclass[twoside]{iitbreport}
+\documentclass[oneside]{iitbreport}
 
 
 %% Default spacing: 1.5
@@ -169,8 +169,8 @@
 %****************************************************************
 %% Additional, supporting material, such as codes, derivations, etc., can be placed in the appendix
 % \appendix
-\chapter{Conclusion}
-Implementation of surface tension forces in the regime of Smoothed Particle Hydrodynamics(SPH) was discused in this work. Specialized expressions for curvature between two species of particles are formulated. The most straightforward method which calculates the SPH estimate of curvature and applying it directly to get surface tension force is discussed. The issue of not conserving momentum is tackled by a tensor form which might have singularities. A corrected form of pressure and surface tension forces are discussed to tackle that issue.
+\chapter{Summary}
+Implementation of surface Tension forces in the regime of Smoothed Particle Hydrodynamics(SPH) was discused in this work. Specialized expressions for curvature between two species of particles are formulated. The most straightforward method which calculates the SPH estimate of curvature and applying it directly to get surface tension force is discussed. The issue of not conserving momentum is tackled by a tensor form which might have singularities. A corrected form of pressure and surface tension forces are discussed to tackle that issue.
 
 \chapter{Future Work}
 
@@ -181,14 +181,8 @@ The following are to be implemented in the second phase of this project:
 \begin{itemize}
  \item The already simulated problem using surface tension is to be implemented in the other two methods which were explained using the momentum conserved form and the form 
  which removes the singularities.
- \item Other benchmark problems which include Equilibrium rod, Oscillating rod \citep{Morris}, Capillary Wave, Three Phase interaction etc., \citep{Adami}
- will be implemented using different schemes.
- \item These implementations can be extended to three dimensional problems
- \item A volume density based method where the ratio of mass and density will be replaced
- by the volume of the particle. This implementation will be useful for problems with high density variations.
-  \item All these equations put together can be made into a new scheme which can be readily
-  used by a user in PySPH.
- \end{itemize}
+ \item
+\end{itemize}
 
 
 %******************************************************************

@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{11}%
+\begin{thebibliography}{12}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -202,4 +202,16 @@
   {Aerospace Engineering, Indian Institute of Technology Bombay}, \bibinfo
   {address} {Mumbai, India}).%
   \bibAnnoteFile{Stop}{janmejaya}%
+\bibitem[{\citenamefont{X.Y.Hu}\ and\ \citenamefont{N.A.Adams}(2006)}]{Adami}%
+  \BibitemOpen
+  \bibfield{author}{%
+  X.Y.Hu,\ and\ N.A.Adams}%
+  , \bibinfo {year} {2006},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{A multi-phase SPH method for macroscopic and
+  mesoscopic flows}},}\ }%
+  \bibfield{journal}{%
+  \emph{\Doi{10.1016/j.jcp.2005.09.001}{\bibinfo {journal} {Journal of
+  Computational Physics}}}\ }%
+  \textbf{\bibinfo {volume} {213}},\ \bibinfo {pages} {844--861}.%
+  \bibAnnoteFile{Stop}{Adami}%
 \end{thebibliography}%
