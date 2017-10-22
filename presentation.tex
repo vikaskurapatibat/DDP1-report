@@ -1,0 +1,390 @@
+\documentclass{beamer}
+
+
+\usetheme{CambridgeUS}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{subcaption}
+
+\definecolor{orange}{rgb}{0.93,0.07,0}
+
+
+\title[Multiphase SPH]{\textbf{Simulation of Multiphase Flows using Smoothed Particle Hydrodynamics(SPH)}\\[0.1in]
+		Dual Degree Project - I\\
+		\textbf{AE 593}}
+
+\author[Vikas K]{Vikas Kurapati \\ 
+		\textbf{Roll no:} 130010058 \\
+		Department of Aerospace Engineering\\
+		\textbf{I.I.T. Bombay}\\[0.1in]
+		\textbf{Guide:} Prof. Prabhu Ramachandran}
+
+\date{October 24, 2017}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+\justifying
+The current project involves simulation of multiphase flows using Smoothed Particle Hydrodynamics(SPH).\\[0.2in] 
+First we discuss formulation of surface tension in multiphase flows and then break down the three forces in Multiphase flows i.e., Pressure, viscous and surface tension forces.\\[0.2in] 
+Later, different SPH formulations of surface tension are discussed a method is implemented using PySPH and the results are discussed.
+\end{frame}
+
+\section{Basics of SPH Formulations}
+\begin{frame}{Basics of SPH Formulations}
+\justifying
+Any function and its gradient can be interpolated as the follows in SPH:
+\begin{eqnarray*}
+F_s (r) = \sum_{j} F_j \frac{m_j}{\rho_j} W(r-r_j, h) \\
+\nabla F(r) = \sum_j \frac{m_j}{\rho_j}F_j \nabla W(r-r_j, h)
+\end{eqnarray*}
+\end{frame}
+\section{SPH formulations of basic Navier Stokes Equations}
+\subsection{Continuity Equation}
+\begin{frame}{SPH formulations of basic Navier Stokes Equations}
+\begin{itemize}
+\item Continuity Equation
+\end{itemize}
+Continuity Equation gives the evolution of density. The formulations
+are as given below:
+
+\begin{equation}
+ \rho_i = \sum_j m_j W_{ij}
+ \label{summation}
+\end{equation}
+
+This form of equation for density is called the Summation Density
+
+\noindent
+Density can also be evolved by using $\frac{d\rho}{dt} + \rho \nabla . \mathbf{v} = 0$
+
+\begin{equation}
+ \frac{d\rho_i}{dt} = \sum_j m_j \mathbf{v_{ij}} \nabla_i W_{ij}
+  \label{Continuity}
+ \end{equation}
+
+where $\mathbf{v_{ij}} = \mathbf{v_i} - \mathbf{v_j}$.\\
+\end{frame}
+
+\subsection{Momentum Equation}
+\begin{frame}{Momentum Equation}
+The pressure forces are approximated as:
+\begin{equation*}
+ \frac{d\mathbf{v_i^p}}{dt} = -\sum_j m_j \left( \frac{P_j}{\rho_j^2} + \frac{P_i}{\rho_i^2}\right)\nabla_i W_{ij}
+\end{equation*}
+The commonly used viscous forces in SPH is:
+\begin{equation*}
+ \frac{d\mathbf{v_i^\nu}}{dt} = - \sum_j m_j \Pi_{ij} \nabla_i W_{ij}
+\end{equation*}
+where:
+\begin{equation*}
+ \Pi_{ij} = -\nu \left( \frac{min(\mathbf{v_{ij}}, \mathbf{x_{ij}}, 0)}{(\mathbf{x_{ij}}^2 + \epsilon h_{ij}^2)}\right), 
+  \label{pi}
+ \end{equation*}
+where:
+\begin{equation*}
+ \nu = \frac{\alpha h_{ij}c_s}{\rho_{ij}}
+\end{equation*}
+where $\alpha$ is the viscosity constant, $c_s$ is the artificial speed of sound.
+\end{frame}
+
+\subsection{Energy Equation}
+\begin{frame}{Energy Equation}
+The equation for the rate of change of thermal energy per unit mass is given by:
+
+\begin{equation*}
+ \frac{du}{dt} = -\left( \frac{P}{\rho} \right)\nabla. \mathbf{v}
+\end{equation*}
+which when written in SPH form yields:
+
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz}
+
+
+Serrations decrease the Radar Cross Section of the wing substantially for this frequency till 80 degrees of incidence in the pitch plane.
+\end{frame}
+
+
+\subsection{Frequency = 5GHz}
+\begin{frame}{Frequency = 5GHz}
+\justifying
+Meshing of the wings for this frequency conditions are given as :
+\begin{itemize}
+\item Delta Wing:
+\begin{itemize}
+	\item Number of Metallic Triangles = 31362
+	\item Number of Metallic Edges = 47043
+\end{itemize}
+\item Serrated Delta Wing:
+\begin{itemize}
+\item Number of Metallic Triangles = 34896
+\item Number of Metallic Edges = 52344
+\end{itemize}
+\end{itemize}
+Fast Multipole Method was used for this simulation and single precision was used to save memory and time as the number of mesh elements increased significantly as the electric size which is directly proportional to frequency is doubled.
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz}
+
+Serrations decrease the Radar Cross Section of the wing substantially for this frequency till 60 degrees of incidence.
+\end{frame}
+
+\subsection{Frequency = 10GHz}
+\begin{frame}{Frequency = 10GHz}
+\justifying
+Meshing of the wings for this frequency conditions are given as :
+\begin{itemize}
+\item Delta Wing:
+\begin{itemize}
+	\item Number of Metallic Triangles = 72042
+	\item Number of Metallic Edges = 108063
+\end{itemize}
+\item Serrated Delta Wing:
+\begin{itemize}
+\item Number of Metallic Triangles = 77826
+\item Number of Metallic Edges = 116739
+\end{itemize}
+\end{itemize}
+Fast Multipole Method was used for this simulation and single precision was used to save memory and time as the number of mesh elements increased significantly as the electric size which is directly proportional to frequency is doubled again.
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz}
+
+Serrations decrease the Radar Cross Section of the wing substantially for this frequency till 70 degrees of incidence.
+\end{frame}
+
+\begin{frame}{Conclusions}
+\justifying
+It can be seen from the backscatter RCS plots that triangular serrations decrease the RCS of the delta wing significantly for most of the incidence angles in the pitch plane and hence these can be used as shaping techniques for RCS reduction in real life scenarios for fighter aircrafts. In case of frequency increase, in pitch plane, the general trend of RCS is that it is decreasing.
+
+\end{frame}
+
+\section{Leading Edge Serrated Delta Wing}
+\begin{frame}{Leading Edge Serrated Delta Wing}
+\justifying
+Barn owl feathers at the leading edge of the wing are equipped with comb-like structures termed serrations on their outer vanes. Each serration is formed by one barb ending that separates and bends upwards. This structure is considered to play a role in air-flow control and noise reduction during flight. Hence, it has considerable potential for engineering applications, particularly in the aviation industry. These serrations were attached to the earlier unserrated delta wing at the leading edge and then the effect on RCS is studied.\\
+The first order approximation of serrations on geometrical data of natural serrations of the barn owl located at central regions of the feather.
+$$f_{width} = -0.2067 \times y + 640$$
+$$f_{thickness} = -0.0149 \times y + 86$$
+$$ f_{curvature}(y) = 8\times10^{-8}y^3 - 6\times10^{-5}y^2 + 0.1154y$$
+\end{frame}
+
+\begin{frame}{Geometry of the micro serration}
+\justifying
+For an array of serrations, further parameters were necessary to ensure a functional orientation. The y-axis of the serration was not attached at right angles to the leading edge, but at an angle of $29^\circ$. Furthermore, serrations were tilted towards the anterior side. The tilt angle of the y-z-plane was $36^\circ$. To ensure a symmetrical orientation of the serrations, the tip distance should equal the distance from the basal central shafts (0.575 mm)
+
+\end{frame}
+
+\begin{frame}{Geometry of the wing}
+The following figure shows the CAD model of the leading edge serrated wing:
+
+\justifying
+These serrations doubled and halved are also studied when attached to a delta wing along half thickness of the wing with a tilt angle of 36.9 degrees with a spacing of 0.575mm(which is doubled and halved as the serration size is doubled and halved respectively) and the effect of serration size on RCS is studied in yaw plane of the aircraft under the influence of a horizontally polarized light under three frequencies 2.5, 5, 10GHz.
+\end{frame}
+
+\subsection{Frequency = 2.5GHz}
+\begin{frame}{Frequency = 2.5GHz}
+Meshing of the wings for this frequency conditions are given as :
+\begin{itemize}
+\item Delta Wing:
+\begin{itemize}
+	\item Number of Metallic Triangles = 3156
+	\item Number of Metallic Edges = 4734
+	\item Number of PO faces = 7
+\end{itemize}
+\item Serrated Delta Wing with Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 443954
+\item Number of Metallic Edges = 665931
+\item Number of PO faces = 3535
+\end{itemize}
+\item Serrated Delta Wing with Double the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 494036
+\item Number of Metallic Edges = 741054
+\item Number of PO faces = 1765
+\end{itemize}
+\item Serrated Delta Wing with half the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 405836
+\item Number of Metallic Edges = 608754
+\item Number of PO faces = 7063
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz}
+\justifying
+There were 589 serrations along the Leading Edge of the wing for the normal serrated wing, 1178 serrations for halved serrations and 294 serrations for doubled serrations\\[0.2in]
+Method of Moments was not used, instead Physical Optics was used as memory required was too high for serrated wings when Method of Moments was used. Single Precision was used in the simulation.\\
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz, Incidence Angle = $135^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz, Incidence Angle = $150^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz, Incidence Angle = $165^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz, Incidence Angle = $180^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 2.5GHz}
+\justifying
+Leading edge micro serrations have a significant effect on RCS in the yaw plane and it can be seen that the normal barn owl serrations have the least RCS and all the serrated wings have less RCS than a normal delta wing in all the cases for this frequency.
+\end{frame}
+
+\subsection{Frequency = 5GHz}
+\begin{frame}{Frequency = 5GHz}
+Meshing of the wings for this frequency conditions are given as :
+\begin{itemize}
+\item Delta Wing:
+\begin{itemize}
+	\item Number of Metallic Triangles = 12476
+	\item Number of Metallic Edges = 18714
+	\item Number of PO faces = 7
+\end{itemize}
+\item Serrated Delta Wing with Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 1008644
+\item Number of Metallic Edges = 1512966
+\item Number of PO faces = 3535
+\end{itemize}
+\item Serrated Delta Wing with Double the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 982832
+\item Number of Metallic Edges = 1474248
+\item Number of PO faces = 1765
+\end{itemize}
+\item Serrated Delta Wing with half the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 972018
+\item Number of Metallic Edges = 1458027
+\item Number of PO faces = 7063
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz}
+\justifying
+There is a significant increase in the number of triangles and edges as the electrical size doubled as the frequency doubled and hence the meshing needed to be finer.\\[0.2in]
+Method of Moments was not used, instead Physical Optics was used as memory required was too high for serrated wings when Method of Moments was used. Single Precision was used in the simulation.\\
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz, Incidence Angle = $135^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz, Incidence Angle = $150^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz, Incidence Angle = $165^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz, Incidence Angle = $180^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 5GHz}
+\justifying
+Leading edge micro serrations have a significant effect on RCS in the yaw plane and it can be seen that the normal barn owl serrations have the least RCS and all the serrated wings have less RCS than a normal delta wing in all the cases for this frequency. 
+\end{frame}
+
+\subsection{Frequency = 10GHz}
+\begin{frame}{Frequency = 10GHz}
+Meshing of the wings for this frequency conditions are given as :
+\begin{itemize}
+\item Delta Wing:
+\begin{itemize}
+	\item Number of Metallic Triangles = 49308
+	\item Number of Metallic Edges = 73962
+	\item Number of PO faces = 7
+\end{itemize}
+\item Serrated Delta Wing with Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 2231396
+\item Number of Metallic Edges = 3347094
+\item Number of PO faces = 3535
+\end{itemize}
+\item Serrated Delta Wing with Double the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 1764620
+\item Number of Metallic Edges = 2646930
+\item Number of PO faces = 1765
+\end{itemize}
+\item Serrated Delta Wing with half the Barn Owl size:
+\begin{itemize}
+\item Number of Metallic Triangles = 2433740
+\item Number of Metallic Edges = 3650610
+\item Number of PO faces = 7063
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz}
+\justifying
+There is a significant increase in the number of triangles and edges as the electrical size doubled as the frequency doubled and hence the meshing needed to be finer.\\[0.2in]
+Method of Moments was not used, instead Physical Optics was used as memory required was too high for serrated wings when Method of Moments was used. Single Precision was used in the simulation.\\
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz, Incidence Angle = $135^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz, Incidence Angle = $150^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz, Incidence Angle = $165^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz, Incidence Angle = $180^\circ$}
+	
+\end{frame}
+
+\begin{frame}{Frequency = 10GHz}
+\justifying
+Leading edge micro serrations have a significant effect on RCS in the yaw plane and it can be seen that the normal barn owl serrations have the least RCS and all the serrated wings have less RCS than a normal delta wing in all the cases for this frequency.
+\end{frame}
+
+\begin{frame}
+\justifying
+The trend with frequency is that RCS increases with frequency at some regions and then decreases for an incidence angle for some viewing angles and increases for other viewing angles as the creep RCS increases. In general, it can be taken that the RCS increases with frequency until some frequency.(In this case, as only three frequencies are studied, we can't comment on that frequency as the data set may not be sufficient.) \\ 
+It can be seen from the RCS plots that micro serrations decrease the RCS of the delta wing significantly for most of the incidence angles for most of the viewing angles in the yaw plane and hence these can be used as shaping techniques for RCS reduction in real life scenarios for fighter aircrafts for stealth.
+\end{frame}
+
+\begin{frame}{Conclusions}
+In this article we have seen how trailing edge triangular serrations and leading edge micro serrations affect the RCS and how these shaping techniques can be used to reduce the RCS of an aircraft in particular incident angles for real life applications.
+\end{frame}
+
+\begin{frame}{Future Work}
+This work can be coupled with CFD results of the wings and the optimum aerodynamic and electromagnetic configuration of an aircraft can be found for real life efficient and stealthy aircraft configurations with modified bodies and wings.
+
+\end{frame}
+\section*{Thank You}
+\begin{frame}
+\centering
+\Huge{\textcolor{orange}{Thank You!}}
+\end{frame}
+
+\end{document}
