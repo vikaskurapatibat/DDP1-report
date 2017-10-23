@@ -30,7 +30,6 @@
 \maketitle
 \end{frame}
 
-\section*{Contents}
 \begin{frame}[allowframebreaks]
  \tableofcontents
 \end{frame}
