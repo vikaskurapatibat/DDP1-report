@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  23 OCT 2017 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  23 OCT 2017 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,43 +966,42 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation.toc)
-[2
-
-] [3
-
-
-] [4
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+) [3
+
+] [4
+
+] [5
 
 ] [6
 
-] [7
+]
+[7
 
 ] [8
 
-]
-[9
+] [9
 
-] [10
+]
+Overfull \vbox (0.80579pt too high) detected at line 189
+ []
+
+[10
 
 ] [11
 
-]
-Overfull \vbox (0.80579pt too high) detected at line 194
- []
-
-[12
+] [12
 
 ] [13
 
@@ -1026,55 +1025,51 @@ Overfull \vbox (0.80579pt too high) detected at line 194
 
 ] [23
 
-] [24
-
-] [25
-
 ]
-<./case10.png, id=891, 462.528pt x 346.896pt>
+<./case10.png, id=801, 462.528pt x 346.896pt>
 File: ./case10.png Graphic file (type png)
  <use ./case10.png>
-Package pdftex.def Info: ./case10.png used on input line 479.
+Package pdftex.def Info: ./case10.png used on input line 474.
 (pdftex.def)             Requested size: 112.95807pt x 84.71765pt.
 
-<./case11.png, id=893, 462.528pt x 346.896pt>
+<./case11.png, id=803, 462.528pt x 346.896pt>
 File: ./case11.png Graphic file (type png)
  <use ./case11.png>
-Package pdftex.def Info: ./case11.png used on input line 479.
+Package pdftex.def Info: ./case11.png used on input line 474.
 (pdftex.def)             Requested size: 112.95807pt x 84.71765pt.
 
-<./case12.png, id=894, 462.528pt x 346.896pt>
+<./case12.png, id=804, 462.528pt x 346.896pt>
 File: ./case12.png Graphic file (type png)
  <use ./case12.png>
-Package pdftex.def Info: ./case12.png used on input line 479.
+Package pdftex.def Info: ./case12.png used on input line 474.
 (pdftex.def)             Requested size: 112.95807pt x 84.71765pt.
 
-Overfull \vbox (88.15108pt too high) detected at line 479
+Overfull \vbox (88.15108pt too high) detected at line 474
  []
 
-[26
+[24
 
  <./case10.png> <./case11.png> <./case12.png>]
-<./case13.png, id=926, 462.528pt x 346.896pt>
+<./case13.png, id=837, 462.528pt x 346.896pt>
 File: ./case13.png Graphic file (type png)
  <use ./case13.png>
-Package pdftex.def Info: ./case13.png used on input line 500.
+Package pdftex.def Info: ./case13.png used on input line 495.
 (pdftex.def)             Requested size: 154.03183pt x 115.52408pt.
 
-<./case14.png, id=927, 462.528pt x 346.896pt>
+<./case14.png, id=838, 462.528pt x 346.896pt>
 File: ./case14.png Graphic file (type png)
  <use ./case14.png>
-Package pdftex.def Info: ./case14.png used on input line 500.
+Package pdftex.def Info: ./case14.png used on input line 495.
 (pdftex.def)             Requested size: 154.03183pt x 115.52408pt.
- [27
+ [25
 
- <./case13.png> <./case14.png>] [28
+ <./case13.png> <./case14.png>] [26
+
+] [27
+
+] [28
 
 ] [29
-
-] [30
-
-] [31
 
 ]
 \tf@nav=\write6
@@ -1086,28 +1081,28 @@ Package pdftex.def Info: ./case14.png used on input line 500.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 1EDF96C0CB4800F3ADA098CDEE88C0AE;1781.
+(rerunfilecheck)             Checksum: B18AF071C93B3DFB3F2AD58D62A5D773;1778.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 536.
  ) 
 Here is how much of TeX's memory you used:
- 18139 strings out of 494953
- 345773 string characters out of 6180978
- 413060 words of memory out of 5000000
- 20912 multiletter control sequences out of 15000+600000
+ 18083 strings out of 494953
+ 344253 string characters out of 6180978
+ 409060 words of memory out of 5000000
+ 20863 multiletter control sequences out of 15000+600000
  12045 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,17n,60p,392b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,17n,57p,392b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1120,10 +1115,10 @@ lic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb>
-Output written on presentation.pdf (31 pages, 338969 bytes).
+Output written on presentation.pdf (29 pages, 335966 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 1050 compressed objects within 11 object streams
- 101 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 966 compressed objects within 10 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

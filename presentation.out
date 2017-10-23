@@ -1,27 +1,27 @@
-\BOOKMARK [2][]{Outline0.2}{Introduction}{}% 1
-\BOOKMARK [2][]{Outline0.3}{Basics of SPH Formulations}{}% 2
-\BOOKMARK [2][]{Outline0.4}{SPH formulations of basic Navier Stokes Equations}{}% 3
-\BOOKMARK [3][]{Outline0.4.1.6}{Continuity Equation}{Outline0.4}% 4
-\BOOKMARK [3][]{Outline0.4.2.7}{Momentum Equation}{Outline0.4}% 5
-\BOOKMARK [3][]{Outline0.4.3.8}{Energy Equation}{Outline0.4}% 6
-\BOOKMARK [3][]{Outline0.4.4.9}{Moving The Particles}{Outline0.4}% 7
-\BOOKMARK [3][]{Outline0.4.5.10}{Equation of State}{Outline0.4}% 8
-\BOOKMARK [2][]{Outline0.5}{Physics of Multiphase Flows}{}% 9
-\BOOKMARK [3][]{Outline0.5.1.11}{Interface Tracking techniques}{Outline0.5}% 10
-\BOOKMARK [3][]{Outline0.5.2.12}{Continuum Surface Force Method\(CSF\)}{Outline0.5}% 11
-\BOOKMARK [2][]{Outline0.6}{SPH Formulations}{}% 12
-\BOOKMARK [3][]{Outline0.6.1.14}{Density}{Outline0.6}% 13
-\BOOKMARK [3][]{Outline0.6.2.15}{Equation of State}{Outline0.6}% 14
-\BOOKMARK [3][]{Outline0.6.3.16}{Forces: Pressure}{Outline0.6}% 15
-\BOOKMARK [3][]{Outline0.6.4.17}{Forces: Viscous}{Outline0.6}% 16
-\BOOKMARK [3][]{Outline0.6.5.18}{Forces: Surface Tension Forces}{Outline0.6}% 17
-\BOOKMARK [3][]{Outline0.6.6.19}{Calculating Interfacial Curvature}{Outline0.6}% 18
-\BOOKMARK [3][]{Outline0.6.7.22}{Momentum Conserving Form}{Outline0.6}% 19
-\BOOKMARK [3][]{Outline0.6.8.24}{Removing the Singularity}{Outline0.6}% 20
-\BOOKMARK [2][]{Outline0.7}{Results and Discussions}{}% 21
-\BOOKMARK [2][]{Outline0.8}{Results}{}% 22
-\BOOKMARK [3][]{Outline0.8.1.26}{Kernels' Comparisions}{Outline0.8}% 23
-\BOOKMARK [3][]{Outline0.8.2.27}{Smoothing Lengths' Comparisions}{Outline0.8}% 24
-\BOOKMARK [2][]{Outline0.9}{Discussions}{}% 25
-\BOOKMARK [2][]{Outline0.10}{Conclusions}{}% 26
-\BOOKMARK [2][]{Outline0.11}{Future Work}{}% 27
+\BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
+\BOOKMARK [2][]{Outline0.2}{Basics of SPH Formulations}{}% 2
+\BOOKMARK [2][]{Outline0.3}{SPH formulations of basic Navier Stokes Equations}{}% 3
+\BOOKMARK [3][]{Outline0.3.1.4}{Continuity Equation}{Outline0.3}% 4
+\BOOKMARK [3][]{Outline0.3.2.5}{Momentum Equation}{Outline0.3}% 5
+\BOOKMARK [3][]{Outline0.3.3.6}{Energy Equation}{Outline0.3}% 6
+\BOOKMARK [3][]{Outline0.3.4.7}{Moving The Particles}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.5.8}{Equation of State}{Outline0.3}% 8
+\BOOKMARK [2][]{Outline0.4}{Physics of Multiphase Flows}{}% 9
+\BOOKMARK [3][]{Outline0.4.1.9}{Interface Tracking techniques}{Outline0.4}% 10
+\BOOKMARK [3][]{Outline0.4.2.10}{Continuum Surface Force Method\(CSF\)}{Outline0.4}% 11
+\BOOKMARK [2][]{Outline0.5}{SPH Formulations}{}% 12
+\BOOKMARK [3][]{Outline0.5.1.12}{Density}{Outline0.5}% 13
+\BOOKMARK [3][]{Outline0.5.2.13}{Equation of State}{Outline0.5}% 14
+\BOOKMARK [3][]{Outline0.5.3.14}{Forces: Pressure}{Outline0.5}% 15
+\BOOKMARK [3][]{Outline0.5.4.15}{Forces: Viscous}{Outline0.5}% 16
+\BOOKMARK [3][]{Outline0.5.5.16}{Forces: Surface Tension Forces}{Outline0.5}% 17
+\BOOKMARK [3][]{Outline0.5.6.17}{Calculating Interfacial Curvature}{Outline0.5}% 18
+\BOOKMARK [3][]{Outline0.5.7.20}{Momentum Conserving Form}{Outline0.5}% 19
+\BOOKMARK [3][]{Outline0.5.8.22}{Removing the Singularity}{Outline0.5}% 20
+\BOOKMARK [2][]{Outline0.6}{Results and Discussions}{}% 21
+\BOOKMARK [2][]{Outline0.7}{Results}{}% 22
+\BOOKMARK [3][]{Outline0.7.1.24}{Kernels' Comparisions}{Outline0.7}% 23
+\BOOKMARK [3][]{Outline0.7.2.25}{Smoothing Lengths' Comparisions}{Outline0.7}% 24
+\BOOKMARK [2][]{Outline0.8}{Discussions}{}% 25
+\BOOKMARK [2][]{Outline0.9}{Conclusions}{}% 26
+\BOOKMARK [2][]{Outline0.10}{Future Work}{}% 27
